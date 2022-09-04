@@ -1,5 +1,6 @@
 import React from 'react'
-import {BsMusicNoteBeamed,BsFillSuitHeartFill,BsXCircle} from "react-icons/bs"
+import {BsMusicNoteBeamed} from "react-icons/bs"
+import {TbHeartOff,TbHeart} from "react-icons/tb"
 
 function Kartica({pesme,dodajOmiljenu,mod,izbaciIzOmiljenih}){
     return(
@@ -12,9 +13,9 @@ function Kartica({pesme,dodajOmiljenu,mod,izbaciIzOmiljenih}){
                 <p className="song">{pesme.izvodjac}</p>
 
                 {mod==1 ? 
-                <p><button onClick={()=>dodajOmiljenu(pesme.id)}><BsFillSuitHeartFill/></button></p>
+                <p><button onClick={()=>dodajOmiljenu(pesme.id)}><TbHeart/></button></p>
                 :
-                <p><button onClick={()=>izbaciIzOmiljenih(pesme.id)}><BsXCircle/></button></p>
+                <p><button onClick={()=>izbaciIzOmiljenih(pesme.id)}><TbHeartOff/></button></p>
                 }
             </div>
         </div>
