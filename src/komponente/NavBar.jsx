@@ -7,6 +7,8 @@ function NavBar(){
         <div>
             <div className="topnav">
                 <Link to="/">Home</Link>
+                <Link to="/listaPesama">Lista pesama</Link>
+                <Link to="/omiljene">Omiljene pesme</Link>
             </div>
         </div>
     );
