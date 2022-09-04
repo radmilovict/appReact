@@ -1,16 +1,12 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+
 
 function NavBar(){
     return(
         <div>
-            <div class="topnav" id="myTopnav">
-                <a href="#home" class="active">Home</a>
-                <a href="#news">News</a>
-                <a href="#contact">Contact</a>
-                <a href="#about">About</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
+            <div className="topnav">
+                <Link to="/">Home</Link>
             </div>
         </div>
     );

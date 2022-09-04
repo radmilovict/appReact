@@ -33,19 +33,6 @@
   text-align:right;
 }
 
-@media (max-width:767px) {
-  .footer-clean .item {
-    text-align:center;
-    padding-bottom:20px;
-  }
-}
-
-@media (max-width: 768px) {
-  .footer-clean .item.social {
-    text-align:center;
-  }
-}
-
 .footer-clean .item.social > a {
   font-size:24px;
   width:40px;
@@ -65,18 +52,6 @@
   opacity:0.9;
 }
 
-@media (max-width:991px) {
-  .footer-clean .item.social > a {
-    margin-top:40px;
-  }
-}
-
-@media (max-width:767px) {
-  .footer-clean .item.social > a {
-    margin-top:10px;
-  }
-}
-
 .footer-clean .copyright {
   margin-top:14px;
   margin-bottom:0;
@@ -87,7 +62,7 @@
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: white;
   overflow: hidden;
 }
 
@@ -95,7 +70,7 @@
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -104,17 +79,47 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: rgb(95, 99, 101);
+  color: rgb(249, 239, 239);
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
   background-color: #04AA6D;
-  color: white;
+  color: rgb(8, 6, 6);
 }
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
+}
+
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.pocetna{
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/180/387/737/the-inscription-music-button-play-wallpaper-preview.jpg");
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 500px;
+  padding-bottom: 500px;
+  
+}
+ 
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  right: 10%;
+  color: white;
+  font-family:  monospace;
 }
