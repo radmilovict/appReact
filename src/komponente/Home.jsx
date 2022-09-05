@@ -6,7 +6,7 @@ function Home(){
                 
                 <div className="hero-text">
                     <h1>Svi hitovi na jednom mestu!</h1>
-                    <h2>Napravite svoju playlistu sa vasim omiljenim numerama i slusajte bilo kad i bilo gde!</h2>
+                    <h2>Napravite svoju listu pesama sa vašim omiljenim numerama i slušajte bilo kad i bilo gde!</h2>
                
                  </div>
 

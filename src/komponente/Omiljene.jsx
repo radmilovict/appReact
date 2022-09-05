@@ -7,24 +7,16 @@ function Omiljene({pesme,izbaciIzOmiljenih,brojOmiljenihPesama}){
         <div className="svePesme">
 
         {brojOmiljenihPesama==0 ? 
+
+            <h3>Vaša lista pesama je prazna</h3>
         
-        <>
-            <h1>Niste dodali ni jednu pesmu.</h1>
-        </>
-        
-        :
-        
-        <>
-              {pesme
+            :
+
+            pesme
                 .filter((p)=>p.omiljena==1)
-                
-                .map((p)=>(<Kartica key={p.id} pesme={p} mod={0} izbaciIzOmiljenih={izbaciIzOmiljenih}></Kartica>))}
-        </>
+                .map((p)=>(<Kartica key={p.id} pesme={p} mod={0} izbaciIzOmiljenih={izbaciIzOmiljenih}></Kartica>))
         
         }
-    
-    
-    
            
         </div>
     );

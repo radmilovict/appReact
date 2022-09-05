@@ -8,6 +8,7 @@ import Pesme from './komponente/Pesme';
 import Omiljene from './komponente/Omiljene';
 import { useState } from "react";
 
+
 function App() {
 
   const [brojOmiljenihPesama, setBrOmPesama] = useState(0);
@@ -117,6 +118,7 @@ function izbaciIzOmiljenih(id){
     }
   })
 }
+
 
 
   return (

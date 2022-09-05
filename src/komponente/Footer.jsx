@@ -1,4 +1,6 @@
 import React from 'react'
+import {FaTiktok} from "react-icons/fa"
+import {BsInstagram,BsFacebook} from "react-icons/bs"
 
 function Footer(){
     return(
@@ -8,27 +10,26 @@ function Footer(){
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-sm-4 col-md-3 item">
-                        <h3>Services</h3>
+                        <h3>Korisni linkovi</h3>
                         <ul>
-                            <li><a href="#">Web design</a></li>
-                            <li><a href="#">Development</a></li>
-                            <li><a href="#">Hosting</a></li>
+                            <li><a href="/listaPesama">Lista pesama</a></li>
+                            <li><a href="/omiljenePesme">Omiljene pesme</a></li>
+                            <li><a href="/">Home</a></li>
                         </ul>
                     </div>
                     <div className="col-sm-4 col-md-3 item">
-                        <h3>About</h3>
+                        <h3>Kontakt</h3>
                         <ul>
-                            <li><a href="#">Company</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Legacy</a></li>
+                            <li>muzika@gmail.com</li>
+                            <li>060/00112233</li>
                         </ul>
                     </div>
                     <div className="col-sm-4 col-md-3 item">
-                        <h3>Careers</h3>
+                        <h3>Drustvene mreze</h3>
                         <ul>
-                            <li><a href="#">Job openings</a></li>
-                            <li><a href="#">Employee success</a></li>
-                            <li><a href="#">Benefits</a></li>
+                            <li>Instagram: <BsInstagram/></li>
+                            <li>Facebook: <BsFacebook/></li>
+                            <li>Tiktok: <FaTiktok/></li>
                         </ul>
                     </div>
                 </div>
